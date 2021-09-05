@@ -1,0 +1,16 @@
+C:\Users\Gideon Markus\Desktop\.NET Core\Erbaver\NumberGuess\bin\Debug\net5.0\NumberGuess.exe
+C:\Users\Gideon Markus\Desktop\.NET Core\Erbaver\NumberGuess\bin\Debug\net5.0\NumberGuess.deps.json
+C:\Users\Gideon Markus\Desktop\.NET Core\Erbaver\NumberGuess\bin\Debug\net5.0\NumberGuess.runtimeconfig.json
+C:\Users\Gideon Markus\Desktop\.NET Core\Erbaver\NumberGuess\bin\Debug\net5.0\NumberGuess.runtimeconfig.dev.json
+C:\Users\Gideon Markus\Desktop\.NET Core\Erbaver\NumberGuess\bin\Debug\net5.0\NumberGuess.dll
+C:\Users\Gideon Markus\Desktop\.NET Core\Erbaver\NumberGuess\bin\Debug\net5.0\ref\NumberGuess.dll
+C:\Users\Gideon Markus\Desktop\.NET Core\Erbaver\NumberGuess\bin\Debug\net5.0\NumberGuess.pdb
+C:\Users\Gideon Markus\Desktop\.NET Core\Erbaver\NumberGuess\obj\Debug\net5.0\NumberGuess.csprojAssemblyReference.cache
+C:\Users\Gideon Markus\Desktop\.NET Core\Erbaver\NumberGuess\obj\Debug\net5.0\NumberGuess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gideon Markus\Desktop\.NET Core\Erbaver\NumberGuess\obj\Debug\net5.0\NumberGuess.AssemblyInfoInputs.cache
+C:\Users\Gideon Markus\Desktop\.NET Core\Erbaver\NumberGuess\obj\Debug\net5.0\NumberGuess.AssemblyInfo.cs
+C:\Users\Gideon Markus\Desktop\.NET Core\Erbaver\NumberGuess\obj\Debug\net5.0\NumberGuess.csproj.CoreCompileInputs.cache
+C:\Users\Gideon Markus\Desktop\.NET Core\Erbaver\NumberGuess\obj\Debug\net5.0\NumberGuess.dll
+C:\Users\Gideon Markus\Desktop\.NET Core\Erbaver\NumberGuess\obj\Debug\net5.0\ref\NumberGuess.dll
+C:\Users\Gideon Markus\Desktop\.NET Core\Erbaver\NumberGuess\obj\Debug\net5.0\NumberGuess.pdb
+C:\Users\Gideon Markus\Desktop\.NET Core\Erbaver\NumberGuess\obj\Debug\net5.0\NumberGuess.genruntimeconfig.cache
