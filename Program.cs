@@ -34,9 +34,14 @@ namespace NumberGuess
                 {
                     Medium();
                 }
-                else
+                else if(level == 3)
                 {
                     Hard();
+                }
+                else
+                {
+                    Console.WriteLine("Please choose level 1 to 3");
+                    GetLevel();
                 }
             }
             catch(Exception)
