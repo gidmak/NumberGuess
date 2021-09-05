@@ -11,6 +11,12 @@ namespace NumberGuess
         {
             Console.WriteLine("= = = = = NUMBER GUESSING GAME = = = = =");
             
+            Console.WriteLine("Choose difficulty level...");
+            Console.WriteLine("1. Easy");
+            Console.WriteLine("2. Medium");
+            
+            Console.WriteLine("Press a number to begin...");
+
             GetLevel();    
         }
 
@@ -20,9 +26,15 @@ namespace NumberGuess
             try
             {
                 level = int.Parse(Console.ReadLine());
+                if(level == 1)
+                {
+                    Easy();
+                }
+                else if(level == 2)
+                {
+                    Medium();
+                }
                 
-                Easy();
-              
             }
             catch(Exception)
             {
@@ -64,6 +76,41 @@ namespace NumberGuess
             }
         }
                 
+        private static void Medium()
+        {
+            Console.WriteLine("MEDIUM");
+            Console.WriteLine("Choose a random number from 1 to  20. You have up to 4 trials....");
+            int secret = new Random().Next(1,20);
+
+            int allowedTry = 4;
+            int noOfTry = 0;
+            
+            while(true)
+            {
+                int guess = int.Parse(Console.ReadLine());
+                noOfTry++;
+                if(guess == secret)
+                {
+                    Console.Write("Congratulations. You made it in " + noOfTry + " trials");
+                    break;
+                }
+                if(guess < secret)
+                {
+                    Console.Write("Too low");
+                }
+                if(guess > secret)
+                {
+                    Console.Write("Too high");
+                }
+                if(noOfTry == allowedTry)
+                {
+                    Console.Write($"The number was: {secret}");
+                    break;
+                }
+                Console.WriteLine($" You have {allowedTry - noOfTry} tries left. Enter another number: ");
+            }
+        }
+        
        
     }
 }
